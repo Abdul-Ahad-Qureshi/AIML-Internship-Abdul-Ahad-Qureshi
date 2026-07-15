@@ -1,8 +1,8 @@
 # PlantIQ: Crop Disease Detection System
 
-**Overview** For my university Final Year Project, I designed and developed PlantIQ, a mobile-first crop disease detection system. The end-to-end architecture pairs a Flutter mobile application structured using **Coordinate Attention (CA)** for scalability and maintainability with a FastAPI backend to deliver real-time diagnostic results. At its core, I trained and deployed a custom deep learning classification model, utilizing rigorous **Hybrid Transformers (HT)** to maximize accuracy in identifying plant diseases from image data. This project successfully bridges applied machine learning with robust software engineering to create a practical, AI-driven agricultural solution.
+**Overview** For my university Final Year Project, I designed and developed PlantIQ, a mobile-first crop disease detection system. The end-to-end architecture pairs a Flutter mobile application with a FastAPI backend to deliver real-time diagnostic results. At its core, the system relies on a custom deep learning classification model built on a **Hybrid Transformer (HT)** architecture integrated with **Coordinate Attention (CA)** mechanisms. By combining the local feature extraction of CNNs, the global context awareness of Transformers, and the precise spatial localization of Coordinate Attention, the model achieves high accuracy in identifying minute disease lesions from plant image data.
 
 **Tech Stack**
-* **Frontend:** Flutter (Clean Architecture)
+* **Frontend:** Flutter
 * **Backend:** FastAPI
-* **Machine Learning:** Custom Deep Learning Classification Model (optimized via Coordinate Attention And Hybrid Transformers)
+* **Machine Learning:** Hybrid Transformer (HT) with Coordinate Attention (CA)
